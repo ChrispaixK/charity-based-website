@@ -344,6 +344,7 @@ body {
 }
 
 /*****  Desktop version  *****/
+
 @media screen and (min-width: 768px) {
   .logo {
     display: block;
@@ -352,7 +353,7 @@ body {
   .logo img {
     max-width: 150px;
   }
-  
+
   .navbar {
     position: fixed;
     top: 0;
