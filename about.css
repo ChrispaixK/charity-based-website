@@ -62,9 +62,9 @@
 
 .about img {
   max-width: 150px;
-  border: 1px solid #272a315d;
   padding: 10px 50px;
   margin: 20px 0;
+  box-shadow: 0 1px 10px  #3d3e472c;
 }
 
 .blog {
@@ -90,7 +90,7 @@
 .blog-item {
   max-width: 400px;
   height: 200px;
-  background-image: url(img/4.png);
+  background-image: url(img/event.jpg);
   background-size: cover;
   margin-bottom: 5px;
 }
@@ -102,7 +102,7 @@
   flex-direction: column;
   justify-content: center;
   margin-bottom: 10px;
-  background-color: #ca2a18c9;
+  background-color: #ca2a189d;
 }
 
 .blog-info p {

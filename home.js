@@ -2,42 +2,36 @@
 
 const items = [
   {
-    backImage: 'img/checkerboard-squares-black-white.jpg',
     profilePic: 'img/1.png',
     name: 'Maria Hussain',
     jobDescr: 'Full Stack remote Software Developer at Microsoft California',
     comment: 'Person more about that person more about that person more about that person',
   },
   {
-    backImage: 'img/checkerboard-squares-black-white.jpg',
     profilePic: 'img/2.png',
     name: 'Tarek Ali',
     jobDescr: 'Full Stack remote Software Developer at Microsoft California',
     comment: 'Person more about that person more about that person more about that person',
   },
   {
-    backImage: 'img/checkerboard-squares-black-white.jpg',
     profilePic: 'img/3.png',
     name: 'Abdelmejid Mohamad',
     jobDescr: 'Full Stack remote Software Developer at Microsoft California',
     comment: 'Person more about that person more about that person more about that person',
   },
   {
-    backImage: 'img/checkerboard-squares-black-white.jpg',
     profilePic: 'img/4.png',
     name: 'Abraham Ibizugbe',
     jobDescr: 'Full Stack remote Software Developer at Microsoft California',
     comment: 'Person more about that person more about that person more about that person',
   },
   {
-    backImage: 'img/checkerboard-squares-black-white.jpg',
     profilePic: 'img/5.png',
     name: 'Emma techie',
     jobDescr: 'Full Stack remote Software Developer at Microsoft California',
     comment: 'Person more about that person more about that person more about that person',
   },
   {
-    backImage: 'img/checkerboard-squares-black-white.jpg',
     profilePic: 'img/6.png',
     name: 'Piesye Piesye',
     jobDescr: 'Full Stack remote Software Developer at Microsoft California',
@@ -51,7 +45,7 @@ for (let i = 0; i < items.length; i += 1) {
   data.innerHTML = `
   <div class="staff-item">
   <div class="staff-img">
-        <img src="${items[i].backImage}" alt="back" class="back"/> 
+        <img src="img/checkerboard-squares-black-white.svg" alt="back" class="back"/> 
         <img src="${items[i].profilePic}" alt="staff" class="profile"/> 
       </div>
       <div class="staff-info">
