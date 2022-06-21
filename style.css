@@ -343,19 +343,6 @@ body {
   box-shadow: none;
 }
 
-.preloader .box div:nth-child(3) {
-  animation-delay: 0.2s;
-}
-@keyframes loaderAni{
-  0%,100%{
-    transform: translateY(0);
-  }
-  50%{
-    transform: translateY(-30px);
-  }
-}
-
-
 /*****  Desktop version  *****/
 @media screen and (min-width: 768px) {
   .logo {
@@ -365,7 +352,7 @@ body {
   .logo img {
     max-width: 150px;
   }
-
+  
   .navbar {
     position: fixed;
     top: 0;
