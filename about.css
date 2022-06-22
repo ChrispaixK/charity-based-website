@@ -1,0 +1,158 @@
+@import "style.css";
+
+.headline {
+  border: 1px solid transparent;
+  height: auto;
+}
+
+.hero {
+  text-align: center;
+}
+
+.description {
+  background-color: #fff;
+  color: #272a31;
+}
+
+.hamburger.active {
+  margin: 0 20px auto 0;
+}
+
+.hero h1 {
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+
+.hero p {
+  color: #272a31;
+  margin-top: 20px;
+}
+
+.hero a {
+  margin-top: 10px;
+  color: #272a31;
+  font-weight: 600;
+}
+
+.about {
+  border: 1px solid #fff;
+  background-color: #fff;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #272a31;
+  margin: 50px auto 10px auto;
+}
+
+.about span {
+  display: block;
+  margin: 0 auto 5px auto;
+  width: 30px;
+  height: 2px;
+  background-color: #ec5242;
+}
+
+.about p {
+  margin: 0 20px;
+  color: #272a3183;
+}
+
+.about img {
+  max-width: 150px;
+  padding: 10px 50px;
+  margin: 20px 0;
+  box-shadow: 0 1px 10px  #3d3e472c;
+}
+
+.blog {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.blog h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: red;
+  margin: 50px auto 10px auto;
+}
+
+.blog span {
+  display: block;
+  margin: 0 auto 5px auto;
+  width: 30px;
+  height: 2px;
+  background-color: #ec5242;
+}
+
+.blog-item {
+  max-width: 400px;
+  height: 200px;
+  background-image: url(img/event.jpg);
+  background-size: cover;
+  margin-bottom: 5px;
+}
+
+.blog-info {
+  max-width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+  background-color: #ca2a189d;
+}
+
+.blog-info p {
+  margin: 0 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.blog-info h3 {
+  color: #fff;
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 18px;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .hero span {
+    width: 50px;
+    height: 2px;
+    background-color: #ec5242;
+  }
+
+  .hero h1 {
+    line-height: 60px;
+  }
+
+  .description {
+    font-size: 15px;
+    line-height: 25px;
+    color: #272a31;
+    padding: 20px 50px;
+  }
+
+  .hero p {
+    margin-top: 50px;
+  }
+
+  .blog-content {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 30px;
+    cursor: pointer;
+    flex-wrap: wrap;
+  }
+}
