@@ -148,6 +148,7 @@ body {
   background-attachment: fixed;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: 3px 5px 10px  #00000042;
 }
 
 .hero h2 {
