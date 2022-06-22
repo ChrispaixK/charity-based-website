@@ -1,4 +1,4 @@
-/* speak section dynmically */
+/* staff section dynmically */
 
 const items = [
   {
