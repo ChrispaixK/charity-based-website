@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Checkout the Live Demo](https://chrispaixk.github.io/Capstone-1/)
+[Checkout the Live Demo](https://chrispaixk.github.io/charity-based-website/)
 
 ## Getting Started
 
@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### clone the project from Github
 
-[Here](https://github.com/ChrispaixK/Capstone-1/tree/lab)
+[Here](https://github.com/ChrispaixK/charity-based-website/tree/lab)
 
 
 ## Authors
